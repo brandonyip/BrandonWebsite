@@ -34,7 +34,53 @@ img {
   height: 100%;
 }
 
+/*Styling for back to top button*/
 
+#back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 2px;
+    top: 5px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#back-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#back-to-top:hover i {
+    color: #fff;
+    top: 0px;
+}
+
+
+
+/* HEADER elements*/
 
 
 .logo {
@@ -177,14 +223,36 @@ clicks on the icon. This class makes the topnav look good on small screens
 
 .footer {
   width: 100%;
-  height: 300px;
+  height: 200px;
   background: #333;
 }
 
+.footer-top-button {
+  text-align:center;
+  padding-top: 2em;
+}
+
+.backToTop {
+  color: #fff;
+}
+
+.fa-chevron-up {
+  font-size: 30px;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+
+.fa-chevron-up:hover {
+
+}
 
 /*Social icons in the footer*/
 .footer-social-icons {
-  padding-top: 30px;
+  padding-top: 2em;
   text-align: center;
 }
 
