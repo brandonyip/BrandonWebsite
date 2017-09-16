@@ -8,18 +8,17 @@ $(document).ready(function(){
   console.log("ready!");
 
 
-
  //function: onClick
  //element: hamburger icon
  //description: hamburger icon click expands or retracts the menu
-  $(".icon").on('click', function () {
-    var nav = document.getElementById("topnav");
-    if(nav.className === "navigationBar") {
-      nav.className += " responsive";
-    } else {
-      nav.className = "navigationBar";
-    }
-  });
+ $(function(){
+   $('.navbar-toggle, nav').click(function(){
+     $('.navbar-toggle').toggleClass('navbar-on');
+     $('nav').fadeToggle();
+     $('nav').removeClass('nav-hide');
+   });
+ });
+
 
   //function: onClick
   //element: backToTop button
