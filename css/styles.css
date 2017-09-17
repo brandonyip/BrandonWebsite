@@ -86,7 +86,7 @@ img {
 
 /* HEADER elements*/
 .header {
-  height: 100vh;
+  height: 1080px;
   background-color: #23272a;
 }
 
@@ -105,14 +105,17 @@ img {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 .title {
   color: #f2f2f2;
-  font-size: 105px;
+  font-size: 100px;
   height: auto;
-  padding: 40px;
-  font-family: 'Istok Web', sans-serif;
+  width: 60%;
+  margin: 0px auto;
+  font-family: 'Intro', sans-serif;
   font-style: normal;
   font-weight: bolder;
   text-align: center;
-
+  border-style: solid;
+  border-color: white;
+  word-wrap: break-word;
 }
 
 
@@ -224,16 +227,16 @@ nav ul a:hover {
  first one ("Home"). Show the link that contains should open and close the topnav
  (.icon)
 */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
   .logo {
     margin:auto;
-    float: none;
     height: 150px;
     width: 100%;
   }
   .title {
     padding-top: 20px;
-    float: none;
+    width: 90%;
+    font-size: 90px;
   }
 
   .header {
@@ -243,7 +246,20 @@ nav ul a:hover {
 
 }
 
+@media screen and (max-width: 1000px){
 
+  .title {
+    padding-top: 20px;
+    width: 75%;
+    font-size: 90px;
+  }
+
+  .header {
+    text-align: center;
+    width: 100%;
+  }
+
+}
 
 
 
