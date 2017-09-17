@@ -1,5 +1,4 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-@import "compass/css3";
 
 *{
   margin: 0;
@@ -40,7 +39,7 @@ img {
 
 #back-to-top {
   position: fixed;
-  bottom: 10px;
+  bottom: 70px;
   right: 10px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
@@ -52,11 +51,11 @@ img {
   -moz-border-radius: 35px;
   border-radius: 35px;
   display: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #back-to-top i {
@@ -296,7 +295,8 @@ nav ul a:hover {
 
 .social-icons li {
   display: inline;
-
+  padding: 20px;
+  font-size: 40px;
 }
 
 .social-icon {
@@ -311,7 +311,7 @@ nav ul a:hover {
 }
 
 .fa-linkedin {
-    font-size: 30px;
+    font-size: inherit;
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -327,7 +327,7 @@ nav ul a:hover {
 }
 
 .fa-github {
-  font-size: 30px;
+  font-size: inherit;
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -344,16 +344,17 @@ nav ul a:hover {
 }
 
 .fa-facebook {
-  font-size: 30px;
+  font-size: inherit;
+
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 
 }
 .fa-facebook:hover {
@@ -361,7 +362,7 @@ nav ul a:hover {
 }
 
 .fa-google-plus {
-    font-size: 30px;
+    font-size: inherit;
     padding:10px 9px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -378,7 +379,7 @@ nav ul a:hover {
 }
 
 .fa-youtube {
-    font-size: 30px;
+    font-size: inherit;
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;

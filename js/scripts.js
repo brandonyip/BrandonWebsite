@@ -8,6 +8,19 @@ $(document).ready(function(){
   console.log("ready!");
 
 
+  /* var colors is an array of colors
+  * #cd5c5c is a red
+  * #5ccdcc is a blue
+  * #ffea00 is a yellow
+  * #cc5ccd is a purplepink
+  */
+  var colors = ["#cd5c5c", "#5ccdcc", "#ffea00", "#5ccd94", "#cc5ccd"]
+  var i = 0;
+  $("li").each(function(){
+    $(this).css('color', colors[i]);
+    i++;
+  });
+
  //function: onClick
  //element: hamburger icon
  //description: hamburger icon click expands or retracts the menu
@@ -40,14 +53,6 @@ $(document).ready(function(){
     }, 500);
   });
 
-  /*
-  $(".backToTop").on('click', function() {
-    var x-coord = 0;
-    var y-coord = 0;
-    window.scrollTo(x-coord, y-coord);
-    $("html, body").animate({scrollTop:$(".container")
-    })
-  });*/
 
 
 
