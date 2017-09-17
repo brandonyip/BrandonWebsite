@@ -41,8 +41,7 @@ img {
   position: fixed;
   bottom: 70px;
   right: 10px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(35, 39, 42, 0.7);
   width: 50px;
   height: 50px;
   display: block;
@@ -72,10 +71,10 @@ img {
     transition: all 0.3s ease;
 }
 #back-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: #cd5c5c;
 }
 #back-to-top:hover i {
-    color: #cd5c5c;
+    color: #fff;
     top: 0px;
 }
 
@@ -102,15 +101,16 @@ img {
     border-radius: 50%;
 }
 
-/* Title*/
+/* Title
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 .title {
   color: #f2f2f2;
   font-size: 105px;
   height: auto;
   padding: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Istok Web', sans-serif;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: bolder;
   text-align: center;
 
 }
@@ -276,19 +276,9 @@ nav ul a:hover {
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 150px;
   background: #333;
 }
-
-.footer-top-button {
-  text-align:center;
-  padding-top: 2em;
-}
-
-.backToTop {
-  color: #fff;
-}
-
 
 
 /*Social icons in the footer*/
@@ -399,4 +389,14 @@ nav ul a:hover {
 .fa-youtube:hover {
     background-color: #e64a41;
 }
-/**/
+
+
+
+
+/*FONT FACES*/
+@font-face {
+    font-family: 'Intro';
+    src: url('fonts/Intro.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
