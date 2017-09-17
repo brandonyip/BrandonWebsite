@@ -86,7 +86,7 @@ img {
 
 /* HEADER elements*/
 .header {
-  height: 1080px;
+  height: 100vh;
   background-color: #23272a;
 }
 
@@ -236,7 +236,7 @@ nav ul a:hover {
   .title {
     padding-top: 20px;
     width: 90%;
-    font-size: 90px;
+    font-size: 80px;
   }
 
   .header {
@@ -246,7 +246,7 @@ nav ul a:hover {
 
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) and (min-width: 650px){
 
   .title {
     padding-top: 20px;
@@ -261,7 +261,11 @@ nav ul a:hover {
 
 }
 
-
+@media screen and (max-height: 600px) {
+  .header {
+    height: 600px;
+  }
+}
 
 
 
