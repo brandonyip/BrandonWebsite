@@ -14,11 +14,26 @@ $(document).ready(function(){
   * #ffea00 is a yellow
   * #cc5ccd is a purplepink
   */
-  var colors = ["#cd5c5c", "#5ccdcc", "#ffea00", "#5ccd94", "#cc5ccd"]
+  var colors = ["#cd5c5c", "#5ccdcc", "#ffea00", "#5ccd94", "#cc5ccd"];
+  var pages = ["home", "resume", "projects", "contact", "blog", ];
   var i = 0;
   $("li").each(function(){
     $(this).css('color', colors[i]);
     i++;
+  });
+
+  $('.title').click(function(){
+    /*
+    if(i >= colors.length){
+      i = 0;
+    }
+    $('.title').css('color', colors[i]);
+    i++;*/
+    $(".name").hide();
+    $(".resume").show()
+      .css('opacity', 0)
+      .animate(
+        {opacity: 1});
   });
 
  //function: onClick
